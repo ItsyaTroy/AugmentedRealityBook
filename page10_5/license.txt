@@ -1,0 +1,11 @@
+Model Information:
+* title:	Page10 5
+* source:	https://sketchfab.com/3d-models/page10-5-3339eab6f7c845bd8a43de900f4d07b9
+* author:	TroyDCD (https://sketchfab.com/TroyDCD)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Page10 5" (https://sketchfab.com/3d-models/page10-5-3339eab6f7c845bd8a43de900f4d07b9) by TroyDCD (https://sketchfab.com/TroyDCD) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
