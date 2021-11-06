@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - AugmentedRealityAssignment5Penning</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- https://ar-js-org.github.io/AR.js-Docs/-->
+<!--Note to self: In order for this code  to work, the following things are required for the gltf-model:
+The entire folder with scene.bin and scene.gltf must be uploaded to GitHub
+The URL must include https
+The URL must start with https://arjs-cors-proxy.herokuapp.com/
+Check that gltf is working at https://gltf-viewer.donmccurdy.com/
+-->
+
+<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <!-- we import arjs version without NFT but with marker + location based support -->
+  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  <body style="margin : 0px; overflow: hidden;">
+    <a-scene embedded arjs>
+      <!--Pattern Marker Example Use this Marker Generator https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html-->
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+      <!--Zeroeth Marker logo and 3D model-->
+      
+      <!--Page 1 -->
+<a-marker type='pattern' url='https://ItsyaTroy.github.io/AugmentedRealityBook/Markerset1marked/Marker1.patt'>
+        <a-entity
+          rotation="-180 0 0"
+          position="0 0 0"
+          scale="0.010 0.010 0.010"
+          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://ItsyaTroy.github.io/AugmentedRealityBook/assignment_5_model_page1/scene.gltf"
+        ></a-entity>
+      </a-marker>
+     
+       <!--Page 2 -->
+ <a-marker type='pattern' url='https://ItsyaTroy.github.io/AugmentedRealityBook/Markerset1marked/Marker2.patt'>
+        <a-entity
+          rotation="-180 0 0"
+          position="0 0 0"
+          scale="0.010 0.010 0.010"
+          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://ItsyaTroy.github.io/AugmentedRealityBook/assignment_5_model_page2/scene.gltf"
+        ></a-entity>
+      </a-marker>
+      
+      
+       <!--Page 3 -->
+<a-marker type='pattern' url='https://ItsyaTroy.github.io/AugmentedRealityBook/Markerset1marked/Marker3.patt'>
+        <a-entity
+          rotation="-180 0 0"
+          position="0 0 0"
+          scale="0.010 0.010 0.010"
+          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://ItsyaTroy.github.io/AugmentedRealityBook/assignment_5_model_page_3/scene.gltf"
+        ></a-entity>
+      </a-marker>
+      
+       <!--Page 4 -->
+<a-marker type='pattern' url='https://ItsyaTroy.github.io/AugmentedRealityBook/Markerset1marked/Marker4.patt'>
+        <a-entity
+          rotation="-180 0 0"
+          position="0 0 0"
+          scale="0.010 0.010 0.010"
+          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://ItsyaTroy.github.io/AugmentedRealityBook/assignment_5_page_4/scene.gltf"
+        ></a-entity>
+      </a-marker>
+      
+       <!--Page 5 -->
+<a-marker type='pattern' url='https://ItsyaTroy.github.io/AugmentedRealityBook/Markerset1marked/Marker5.patt'>
+        <a-entity
+          rotation="-180 0 0"
+          position="0 0 0"
+          scale="0.015 0.015 0.015"
+          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://ItsyaTroy.github.io/AugmentedRealityBook/assignment_5_page_5/scene.gltf"
+        ></a-entity>
+      </a-marker>
+      
+      
+       <!--Page 6 -->
+      
+      <a-marker type='pattern' url='https://ItsyaTroy.github.io/AugmentedRealityBook/Markerset1marked/Marker6.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://raw.githubusercontent.com/ItsyaTroy/AugmentedRealityBook/main/Assignment5imagepages/Page6.png" width="5.5px" height="2.5px" ></a-image> 
+</a-marker>
+
+      <!--Page 7 -->
+      
+         <a-marker type='pattern' url='https://ItsyaTroy.github.io/AugmentedRealityBook/Markerset1marked/Marker7.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://raw.githubusercontent.com/ItsyaTroy/AugmentedRealityBook/main/Assignment5imagepages/Page7.png" width="5.5px" height="2.5px" ></a-image> 
+</a-marker>
+       
+      <!--Page 8 -->
+      
+      <a-marker type='pattern' url='https://ItsyaTroy.github.io/AugmentedRealityBook/Markerset1marked/Marker8.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://raw.githubusercontent.com/ItsyaTroy/AugmentedRealityBook/main/Assignment5imagepages/Page8.png" width="5.5px" height="2.5px" ></a-image> 
+</a-marker>
+      
+      <!--Page 9 -->
+      
+      <a-marker type='pattern' url='https://ItsyaTroy.github.io/AugmentedRealityBook/Markerset2marked/Marker9.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://raw.githubusercontent.com/ItsyaTroy/AugmentedRealityBook/main/Assignment5imagepages/Page9.png" width="5.5px" height="2.5px" ></a-image> 
+</a-marker>
+      
+      <!--Page 10 -->
+      
+      <a-marker type='pattern' url='https://ItsyaTroy.github.io/AugmentedRealityBook/Markerset2marked/Marker10.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://raw.githubusercontent.com/ItsyaTroy/AugmentedRealityBook/main/Assignment5imagepages/Page10.png" width="5.5px" height="2.5px" ></a-image> 
+</a-marker>
+      
+      <!--Page 10.5 -->
+      
+      <a-marker type='pattern' url='https://ItsyaTroy.github.io/AugmentedRealityBook/Markerset2marked/Page105.patt'>
+        <a-entity
+          rotation="-90 0 0"
+          position="0 0 0"
+          scale="0.015 0.015 0.015"
+          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://ItsyaTroy.github.io/AugmentedRealityBook/page10_5/scene.gltf"
+        ></a-entity>
+      </a-marker>
+      
+      <!--Page 11 -->
+      
+      <a-marker type='pattern' url='https://ItsyaTroy.github.io/AugmentedRealityBook/Markerset2marked/Marker11.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://raw.githubusercontent.com/ItsyaTroy/AugmentedRealityBook/main/Assignment5imagepages/Page11.png" width="5.5px" height="2.5px" ></a-image> 
+</a-marker>
+      
+      <!--Page 12 -->
+      
+      <a-marker type='pattern' url='https://ItsyaTroy.github.io/AugmentedRealityBook/Markerset2marked/Marker12.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://raw.githubusercontent.com/ItsyaTroy/AugmentedRealityBook/main/Assignment5imagepages/Page12.png" width="5.5px" height="2.5px" ></a-image> 
+</a-marker>
+      
+      <!--Page 13 -->
+      
+      <a-marker type='pattern' url='https://ItsyaTroy.github.io/AugmentedRealityBook/Markerset2marked/Marker13.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://raw.githubusercontent.com/ItsyaTroy/AugmentedRealityBook/main/Assignment5imagepages/Page13.png" width="5.5px" height="2.5px" ></a-image> 
+</a-marker>
+      
+      <!--Page 14 -->
+      
+      <a-marker type='pattern' url='https://ItsyaTroy.github.io/AugmentedRealityBook/Markerset2marked/Marker14.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://raw.githubusercontent.com/ItsyaTroy/AugmentedRealityBook/main/Assignment5imagepages/Page14.png" width="5.5px" height="2.5px" ></a-image> 
+</a-marker>
+      
+      <!--Page 15 -->
+      
+      <a-marker type='pattern' url='https://ItsyaTroy.github.io/AugmentedRealityBook/Markerset2marked/Marker15.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://raw.githubusercontent.com/ItsyaTroy/AugmentedRealityBook/main/Assignment5imagepages/Page15.png" width="5.5px" height="2.5px" ></a-image> 
+</a-marker>
+      
+      <!--Page 16 -->
+      
+      <a-marker type='pattern' url='https://ItsyaTroy.github.io/AugmentedRealityBook/Markerset2marked/Marker16.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://raw.githubusercontent.com/ItsyaTroy/AugmentedRealityBook/main/Assignment5imagepages/Page16.png" width="5.5px" height="2.5px" ></a-image> 
+</a-marker>
+
+      
+      <!--Page 17 -->
+   <a-marker type='pattern' url='https://ItsyaTroy.github.io/AugmentedRealityBook/Markerset2marked/Marker17.patt'>
+        <a-entity
+          rotation="-180 0 0"
+          position="0 0 0"
+          scale="0.010 0.010 0.010"
+          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://ItsyaTroy.github.io/AugmentedRealityBook/staff_page_17/scene.gltf"
+        ></a-entity>
+      </a-marker>
+      
+     
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+<!-- partial -->
+  
+</body>
+</html>
